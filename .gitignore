@@ -1,0 +1,23 @@
+
+# Environment files and passwords
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python virtual environments
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# React dependencies
+**/node_modules/
+**/dist/
+
+# IDE and logs
+.vscode/
+*.log
+
+# Private patient uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
